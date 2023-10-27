@@ -252,6 +252,11 @@ input[type="number"] {
     background: white; /* Altera para uma coluna única para dispositivos menores */
   }
 
+  .adicionar-produto {
+    padding-top: 0.5rem ;
+    padding-bottom: 0.75rem;
+  }
+
   .grafismo-azul {
     display: none; /* Oculta o elemento de grafismo-azul em dispositivos menores */
   }
