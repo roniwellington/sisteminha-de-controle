@@ -248,11 +248,16 @@ input[type="number"] {
 
   .conteudo-principal {
     padding: 2rem 2rem; /* Reduz o padding no conteúdo principal */
-    grid-template-columns: 1fr; /* Altera para uma coluna única para dispositivos menores */
+    grid-template-columns: 1fr;
+    background: white; /* Altera para uma coluna única para dispositivos menores */
   }
 
   .grafismo-azul {
     display: none; /* Oculta o elemento de grafismo-azul em dispositivos menores */
+  }
+
+  .titulo {
+    font-size: 2rem;
   }
 
   .formulario .campo-grupo {
